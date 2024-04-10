@@ -1,0 +1,360 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.menu{
+	width: 100%;
+	height: 80px;
+	background-color: teal;
+
+}
+
+.menu a{
+	color: white;
+	font-family: arial;
+	text-decoration: none;
+	font-size: 28px;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 28px;
+	text-align: center;
+	margin-left: 90px;
+	font-weight: bold;
+}
+
+.menu a:hover{
+	color: darkred;
+}
+
+.menu img{
+	margin-top: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+.contimg1{
+	width: 215px;
+	height: 300px;
+	margin-top: 80px;
+	background-image: url(../img/carrucel1.png);
+	display: flex;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-color: teal;
+	transition: transform 0.6s;
+}
+
+.contimg1:hover{
+	transform: scale(1.10);
+
+}
+
+.contimg2{
+	width: 215px;
+	height: 300px;
+	margin-top: 80px;
+	background-image: url(../img/carrucel2.png);
+	display: flex;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-color: teal;
+	transition: transform 0.6s;
+}
+
+.contimg2:hover{
+	transform: scale(1.10);
+
+}
+
+.contimg3{
+	width: 215px;
+	height: 300px;
+	margin-top: 80px;
+	background-image: url(../img/carrucel3.png);
+	display: flex;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-color: teal;
+	transition: transform 0.6s;
+}
+
+.contimg3:hover{
+	transform: scale(1.10);
+
+}
+
+.contimg4{
+	width: 215px;
+	height: 300px;
+	margin-top: 80px;
+	background-image: url(../img/carrucel4.png);
+	display: flex;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-color: teal;
+	transition: transform 0.6s;
+}
+
+.contimg4:hover{
+	transform: scale(1.10);
+
+}
+
+.contimg5{
+	width: 215px;
+	height: 300px;
+	margin-top: 80px;
+	background-image: url(../img/carrucel5.png);
+	display: flex;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-color: teal;
+	transition: transform 0.6s;
+}
+
+.contimg5:hover{
+	transform: scale(1.10);
+
+}
+
+.container{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/tarde.jpg);
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container h2{
+	font-size: 30px;
+	text-align: center;
+}
+
+.container li{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+.container_nombre h2{
+	font-size: 35px;
+	color: black;
+	font-family: arial;
+}
+
+
+.pie{
+	width: 100%;
+	height: 80px;
+	background-color: teal;
+}
+
+.pie img{
+	width: 70px;
+	height: 60px;
+	margin-left: 20px;
+
+}
+
+
+
+@media (min-width:1075px){
+
+	.menu{
+		height: 80px;
+	}
+
+	.menu img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.menu a{
+		font-size: 28px;
+		line-height: 1.75;
+		margin-bottom: 2em;
+	}
+
+}
+
+
+@media (max-width:400px){
+
+	.menu{
+		width: 300px;
+		height: 200px;
+	}
+
+	.menu img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.menu a{
+		font-size: 1rem;
+		line-height: 1.75;
+		margin-bottom: 2em;
+	}
+
+}
+
+
+
+@media (min-width:1075px){
+
+		.container{
+		width: 100%px;
+		height: 600px;
+		
+	}
+
+	
+}
+
+
+@media (max-width:400px){
+
+		.container{
+		width: 300px;
+		height: 2900px;
+	}
+	
+
+}
+
+@media (min-width:1075px){
+
+	.pie{
+		height: 80px;
+	}
+
+	.pie img{
+		width: 100px;
+		height: 60px;
+	}
+
+
+}
+
+
+@media (max-width:400px){
+
+	.menu{
+		width: 305px;
+		height: 200px;
+	}
+
+	.pie img{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media (min-width:1075px){
+
+	.contimg1{
+		width: 215px;
+		height: 300px;
+	}
+}
+
+
+@media (max-width:400px){
+
+	.contimg1{
+		width: 250px;
+		height: 400px;
+		
+		
+	}
+}
+
+@media (min-width:1075px){
+
+	.contimg2{
+		width: 215px;
+		height: 300px;
+		flex-direction: column;
+
+	}
+}
+
+
+@media (max-width:400px){
+
+	.contimg2{
+		width: 250px;
+		height: 400px;
+		
+
+	
+		
+	}
+}
+
+@media (min-width:1075px){
+
+	.contimg3{
+		width: 215px;
+		height: 300px;
+	}
+}
+
+
+@media (max-width:400px){
+
+	.contimg3{
+		width: 250px;
+		height: 400px;
+		
+		
+	}
+}
+
+
+@media (min-width:1075px){
+
+	.contimg4{
+		width: 215px;
+		height: 300px;
+	}
+}
+
+
+@media (max-width:400px){
+
+	.contimg4{
+		width: 250px;
+		height: 400px;
+		
+		
+	}
+}
+
+
+@media (min-width:1075px){
+
+	.contimg5{
+		width: 215px;
+		height: 300xpx;
+	}
+}
+
+
+@media (max-width:400px){
+
+	.contimg5{
+		width: 250px;
+		height: 400px;
+	
+		
+	}
+}
+
+
+
+
+
